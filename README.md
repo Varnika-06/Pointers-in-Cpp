@@ -1,13 +1,13 @@
 # Pointers-Basics-in-Cpp
 
-** Name**: Varnika Maurya  
+**Name**: Varnika Maurya  
 **PRN**: 24070123160  
 **Experiment No**: 9  
-**File Name**: `l9.cpp`
+**Title**: Pointers Basics in C++
 
 ---
 
-## 📚 Objective
+## Objective
 To understand the concept of pointers in C++ by:
 - Declaring and initializing a pointer.
 - Displaying the value and address of a variable.
@@ -16,50 +16,7 @@ To understand the concept of pointers in C++ by:
 
 ---
 
-## 📝 Description
-This program demonstrates:
-- How a pointer holds the address of a variable.
-- How to access the value stored at a particular address using a pointer.
-- Basic usage of the `&` (address-of) and `*` (dereference) operators.
-
----
-
-## 📌 Code Summary
-```cpp
-int a = 10;                // Integer variable
-int *aptr = &a;            // Pointer to the integer variable
-
-cout << a;                 // Prints value of a
-cout << &a;                // Prints address of a
-cout << aptr;              // Prints value of aptr (address of a)
-cout << *aptr;             // Prints value pointed to by aptr (value of a)
-```
-
-Optional lines (commented out in code) include:
-- Displaying address of the pointer
-- Sizes of variables and pointers using `sizeof()` operator
-
----
-
-## ⚙️ How to Compile and Run
-```bash
-g++ l9.cpp -o l9      # Compiles the code
-./l9                  # Runs the compiled program
-```
-
----
-
-## 💻 Sample Output
-```
-Value of a: 10  
-Address of a: 0x60ff08  
-Value of aptr: 0x60ff08  
-Value pointed to by aptr: 10  
-```
-
----
-
-## 📌 Key Concepts Covered
+## Key Concepts Covered
 - Pointers
 - Address-of operator `&`
 - Dereference operator `*`
@@ -67,5 +24,22 @@ Value pointed to by aptr: 10
 
 ---
 
-## ✅ Conclusion
+## Algorithm: Understanding Pointers in C++  
+
+Step1: Start  
+Step 2: Declare an integer variable a and initialize it with a value (e.g., a = 10).  
+Step 3: Declare a pointer variable aptr and assign it the address of a using the address-of operator &.  
+Step 4: Display the following using cout:  
+- Value of a
+- Address of a (i.e., &a)
+- Value of aptr (which should be same as &a)
+- Value pointed to by aptr using the dereference operator *.
+Step 5: Display:
+- Address of the pointer variable aptr
+- Size of a, aptr, and data types using sizeof().
+Step 6: End
+
+---
+
+## Conclusion
 This experiment helps reinforce understanding of pointer fundamentals in C++. It lays the groundwork for dynamic memory allocation and pointer arithmetic in future programs.
