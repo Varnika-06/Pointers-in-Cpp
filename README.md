@@ -13,14 +13,8 @@ To understand the concept of pointers in C++ by:
 - Displaying the value and address of a variable.
 - Displaying the value stored in a pointer.
 - Using the dereference operator to access the value stored at the pointer location.
-
----
-
-## Key Concepts Covered
-- Pointers
-- Address-of operator `&`
-- Dereference operator `*`
-- Pointer and data type sizes (if uncommented)
+- Pointer interaction with arrays.
+- Modifying values using pointers.
 
 ---
 
@@ -41,5 +35,36 @@ Step 6: End
 
 ---
 
+## Algorithm: Pointer Arithmetic
+
+Step 1: Start  
+Step 2: Declare integer `a` and initialize it.  
+Step 3: Declare pointer `aptr` and store the address of `a`.  
+Step 4: Print original address stored in `aptr`.  
+Step 5: Increment the pointer using `aptr++`.  
+Step 6: Print new address stored in `aptr`.  
+Step 7: End
+
+---
+
+## Algorithm: Pointers with arrays and value modification
+
+Step 1: Start  
+Step 2: Declare integer `a` and pointer `aptr` pointing.  
+Step 3: Modify value of `a` via `*aptr = 20`.  
+Step 4: Declare array `arr[]= {10,20,30}`.  
+Step 5: Declare pointer `ptr` to point to first element of `arr`.  
+Step 6: Loop from `i=0` to `2`:  
+ - Print value at `*ptr`.
+ - Increment pointer to next element.
+Step 7: End
+
+---
+
 ## Conclusion
-This experiment helps reinforce understanding of pointer fundamentals in C++. It lays the groundwork for dynamic memory allocation and pointer arithmetic in future programs.
+These programs help in understanding:
+- How pointers reference memory locations.
+- How values can be modified using pointers.
+- How pointer arithmetic and array access work in C++.
+
+This foundational knowledge is crucial for working with dynamic memory, data structures, and system-level programming.
